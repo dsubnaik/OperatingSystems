@@ -1,15 +1,7 @@
-#all: lineage
+all: lineagedp
 
-#lineage: lineage.c
-#	gcc -g lineage.c -o lineage
-
-#clean:
-#	rm -f lineage
-
-all: lineagep
-
-lineagep: lineagep.c
-	gcc -g lineagep.c -o lineagep
+lineagedp: lineagedp.c
+	gcc -g lineagedp.c -o lineagedp
 
 clean:
-	rm -f lineagep
+	rm -f lineagedp
